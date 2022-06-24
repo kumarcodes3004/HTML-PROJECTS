@@ -1,0 +1,512 @@
+.nav{
+    background-color: white;
+    z-index:9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right:50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+}
+
+.nav_top{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left:0;
+}
+.logo{
+    float: left;
+    width:60% ;
+}
+
+.logo img{
+ padding: 10px;
+
+}
+.nav_side{
+    float: right;
+    width: 40%;
+    margin-top: 30px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: black;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: cosmic,sans-serif;
+    font-size: 15px;
+  
+    
+}
+.nav_side a:hover{
+    color: orange;
+    /* text-decoration: underline; */
+    transition:all 1s ease ;
+}
+
+.main{
+    background-image: url('../project1stop/img1.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    margin-top:10%;
+}
+.main .main_content{
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right:10% ;
+    text-align: center;
+}
+
+.main .main_content h2{
+    color: black;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 25px;
+    
+}
+.main .main_content p{
+    font-family: cosmic, sans-serif;
+    font-size: medium;
+    opacity: 0.7;
+}
+.main .main_content .btn{
+    margin-top: 50px;
+}
+
+.main .main_content .btn a{
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4A148C;
+    /* width:20px; */
+    text-align: center;
+    color: white;
+    font-family: cosmic,sans-serif;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+
+.main .main_content .btn a:hover{
+    background-color: black;
+    color: orange;
+    border-bottom: 4px solid orange;
+    transition: 4px 1s ease;
+}
+.product{
+    padding:50px;
+}
+.product h2{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 20px;
+}
+.product .product_container{
+    display: flex;
+    margin-left:5%;
+    margin-right: 5%;
+    /* text-align: center; */
+}
+
+.product .product_container .item{
+    width: 33.33%;
+    /* display: flex; */
+    margin:10px;
+    height: auto;
+    /* overflow: hidden; */
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product .product_container .item .item_img{
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+}
+.product .product_container .item .item_content{
+    text-align: center;
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+    margin-right: 10px;
+}
+.product .product_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: cosmic,sans-serif;
+
+}
+.product .product_container .item .item_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic,sans-serif;
+}
+
+
+.product .product_container .item .item_content a{
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4A148C;
+    /* width:20px; */
+    text-align: center;
+    color: white;
+    font-family: cosmic,sans-serif;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+
+.product .product_container .item .item_content a:hover{
+    background-color: black;
+    color: orange;
+    border-bottom: 4px solid orange;
+    transition: 4px 1s ease;
+}
+
+.product .prdt_btn{
+   text-align: center;
+   margin-top: 50px;
+}
+.product .prdt_btn a{
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4A148C;
+    /* width:20px; */
+    text-align: center;
+    color: white;
+    font-family: cosmic,sans-serif;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+
+.product .prdt_btn a:hover{
+    background-color: black;
+    color: orange;
+    border-bottom: 4px solid orange;
+    transition: 4px 1s ease;
+}
+.keypoint{
+    padding: 50px;
+    /* display: flex; */
+ 
+ }
+  .keypoint h2{
+     color: black;
+     font-family: cosmic,sans-serif;
+     font-size:35px;
+     font-weight: bolder;
+     text-align: center;
+     padding: 10px;
+ }
+ 
+   .keypoint .Key_container{
+     display: flex;
+ }
+ 
+ .Key_container .Key_content{
+    width: 40%;
+    padding: 20px;
+    float: left;
+ }
+ .Key_container .Key_content li{
+     list-style: none;
+     margin:10px;
+     padding:10px;
+     border-left: 2px solid orange;
+     color: black;
+     text-align: left;
+     font-family: cosmic, sans-serif;
+     box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+ }
+ 
+ .Key_container .Key_img{
+     width: 40%;
+     float: right;
+     margin-left: 100px;
+ }
+ .Key_container .Key_img img{
+     width: 100%;
+ 
+ }
+
+.testi{
+    padding: 50px;
+}
+.testi h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase;
+}
+.testi .testi_container{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item{
+    width: 100%;
+    /* margin: 20px; */
+    background-color: white;
+}
+.testi .testi_container .item .item_img{
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+    /* justify-content: center; */
+}
+.testi .testi_container .item .item_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 70px;
+    
+}
+.testi .testi_container .item .item_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+
+}
+
+.team{
+    padding: 50px;
+}
+.team h2{
+    color: black;
+    font-size: 35px;
+    /* font-family: cosmic, sans-serif; */
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.team .team_container{
+    display: flex;
+}
+.team .team_container .team_video{
+    width:50% ;
+    padding: 20px;
+}
+.team .team_container .team_video iframe{
+    width: 100%;
+    border: 10px solid orange;
+   
+}
+.team .team_container .team_content{
+    width: 40%;
+    margin-left: 50px;
+    padding: 20px;
+}
+.team .team_container .team_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+
+
+.feed{
+    padding: 50px;
+    background-image: url("https://image.freepik.com/free-vector/abstract-background-with-wavy-forms_23-2147618551.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.feed h2{
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.feed .feed_form {
+    text-align: center;
+
+}
+.feed .feed_form form{
+    padding: 20px;
+}
+.feed .feed_form form input{
+    width: 30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+}
+.feed .feed_form form textarea{
+    width: 30%;
+    margin: 10px;
+    /* margin-left: 30%; */
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.feed .feed_form form button{
+    background-color: purple;
+    color: white;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+}
+.feed .feed_form form button:hover{
+    background-color: black;
+    color: orange;
+    border-bottom: 4px solid orange;
+    transition: 4px 1s ease;
+}
+
+
+.about_us{
+    padding: 100px;
+}
+.about_us h2{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase;
+    font-family: cosmic,sans-serif;
+}
+.about_us p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+
+}
+.contact_container{
+    padding: 100px;
+}
+.contact_container h2{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase;
+    font-family: cosmic,sans-serif;
+}
+.contact_container .g_map{
+    border: 5px solid grey;
+}
+.contact_container .contact_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+    text-align: left;
+}
+
+footer{
+    background-color:#99A3A4 ;
+    padding: 50px;
+}
+
+footer .pages{
+    text-align: center;
+} 
+footer .pages h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 15px;
+    font-family: cosmic,sans-serif;
+
+
+}
+footer .pages a:hover{
+   color: white;
+}
+
+footer .doc{
+    text-align: center;
+} 
+footer .doc h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 15px;
+    font-family: cosmic,sans-serif;
+
+
+}
+footer .doc a:hover{
+   color: white;
+}
+
+
+footer .social{
+    text-align: center;
+} 
+footer .social h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+
+
+footer .contact{
+    text-align: center;
+} 
+footer .contact h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+
+footer .social a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+}
+footer .social a:hover{
+    color: white;
+}
+
+footer .contact a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+}
+footer .contact a:hover{
+    color: white;
+}
+
